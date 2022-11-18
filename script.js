@@ -2,10 +2,10 @@
 const reviews = [
     {
         id: 1,
-        name: "suasn smith",
+        name: "susan smith",
         job: "web developer",
         img:
-        "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzsh1.jpg",
+        "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
         text:
         "I'm baby meggins twee health goth +1. biciycle tumeric charteuse before they sold out chambrey pop-up"
     },
