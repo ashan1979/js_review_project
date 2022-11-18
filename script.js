@@ -71,5 +71,18 @@ function showPerson(person) {
 
 nextBtn.addEventListener('click', function(){
   currentItem++
+  if(currentItem > reviews.length - 1){
+    currentItem =0;
+  }
   showPerson(currentItem)
-})
+});
+
+//show previous person
+
+prevBtn.addEventListener('click', function(){
+  currentItem++
+  if(currentItem > reviews.length - 1){
+    currentItem =0;
+  }
+  showPerson(currentItem)
+});
